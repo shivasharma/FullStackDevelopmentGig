@@ -9,5 +9,7 @@ namespace GigHub.Core
         IGenreRepository Genres { get; }
         IFollowingRepository Followings { get; }
         void Complete();
+
+
     }
 }
